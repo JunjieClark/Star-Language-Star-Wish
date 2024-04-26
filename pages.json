@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/tabbar/original/original",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path" : "pages/tabbar/want/want",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path" : "pages/tabbar/objective/objective",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path" : "pages/tabbar/people/people",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path" : "pages/tabbar/location/location",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path" : "pages/tabbar/add/add",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "orange",
+		"borderStyle": "orange",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+			"pagePath": "pages/tabbar/original/original",
+			"text": "Original",
+			"iconPath": "static/originalicon.jpg"
+			}, 
+			{
+			"pagePath": "pages/tabbar/want/want",
+			"text": "Want",
+			"iconPath": "static/wanticon.jpg"
+			},
+			{
+			"pagePath": "pages/tabbar/objective/objective",
+			"text": "Objective",
+			"iconPath": "static/objectiveicon.jpg"
+			},
+			{
+			"pagePath": "pages/tabbar/people/people",
+			"text": "People",
+			"iconPath": "static/peopleicon.jpg"
+			},
+			{
+			"pagePath": "pages/tabbar/location/location",
+			"text": "Location",
+			"iconPath": "static/locationicon.jpg"
+			}
+		]
+	}
+
+}
